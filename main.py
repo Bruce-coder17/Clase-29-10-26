@@ -1,7 +1,7 @@
 # main.py
-from productos import obtener_catalogo_inicial, buscar_producto_por_id, agregar_producto_catalogo
+from calculadora import obtener_catalogo_inicial, buscar_producto_por_id, agregar_producto_catalogo
 from calculos import procesar_totales_carrito
-from facturacion import calcular_cambio, generar_texto_factura, guardar_factura_archivo
+from factura import calcular_cambio, generar_texto_factura, guardar_factura_archivo
 
 def leer_entero(mensaje):
     """Manejo de excepciones para lectura de números enteros."""
